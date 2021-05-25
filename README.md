@@ -1,7 +1,5 @@
-# Quick Start #1
+# Quick Start #2: Creating the `localDevices` microservice under mimik edge
 [UNDER CONSTUCTION]
-
-## Your first microservice using mimik
 
 TABLE OF CONTENTS
 
@@ -15,7 +13,7 @@ TABLE OF CONTENTS
 ## Objective
 
 
-The objective of this project is show you how to create an Edge microservice on your local developement machine using this demonstration `starter-microservice`
+The objective of this project is show you how to create an Edge microservice the reports the devices that are part of the edge cluster.
 
 ## Definition of Terms
 
