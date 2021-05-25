@@ -1,4 +1,5 @@
 # Quick Start #1
+[UNDER CONSTUCTION]
 
 ## Your first microservice using mimik
 
@@ -59,9 +60,9 @@ Once the mimik edgeEngine are installed, execute the following command to instal
 
 ### Creating an Edge Access Token and binding it to your account
 
-The last thing you'll need to to is create an Edge Access Token and bind it to your mimik account using the edgeEngine CLI Tool. The Edge Access Token makes the running instance of edgeEngine visible to other instances of edgeEngine running in the cluster.
+The last thing you'll need to is create an Edge Access Token and bind it to your mimik account using the edgeEngine CLI Tool. The Edge Access Token makes the running instance of edgeEngine visible to other instances of edgeEngine running in the cluster.
 
-You'll find the instuctions for creating an Edge Access Token and binding it to your mimik account at this URL: [https://developer.mimik.com/development-setup/](https://developer.mimik.com/development-setup/).
+You'll find the instructions for creating an Edge Access Token and binding it to your mimik account at this URL: [https://developer.mimik.com/development-setup/](https://developer.mimik.com/development-setup/).
 
 Once all the prerequisites are satisfied you are ready to create the `starter-microservice`.
 
@@ -71,11 +72,11 @@ The following steps will install the Node.js packages needed to create the the `
 
 **Step 1:** Clone this repository onto your development machines. 
 
-`git clone https://github.com/reselbob/starter-microservice.git`
+`git clone https://github.com/reselbob/simplemimik.git`
 
 **Step 2:** Navigate into the newly cloned directory:
 
-`cd starter-microservice`
+`cd simplemimik`
 
 **Step 3:** Install dependencies: 
 
@@ -217,23 +218,23 @@ state:   started
 
 ```
 
-**Step 5:** Call the microservice, use the following format:
+**Step 5:** Call the `localDevices` microservice, use the following format:
 
-`curl http://localhost:8083/< MCM.BASE_API_PATH>/`
+`curl http://localhost:8083/< MCM.BASE_API_PATH>/localDevices`
 
 **WHERE**
 
-`< MCM.BASE_API_PATH>` is the value resported in the response returned when you invoked the `starter-microservice` shown above previously. In this case the value is: `/bb6fba7d-6321-41c5-ac37-1a7a8a9a4ac0/sample/v1/` 
+`< MCM.BASE_API_PATH>` is the value reported in the response returned when you invoked the `starter-microservice` shown above previously. In this case the value is: `/bb6fba7d-6321-41c5-ac37-1a7a8a9a4ac0/sample/v1/` 
 
-Thus, to exercise the microservice, exe ut the following command: 
+Thus, to exercise the `localDevices` microservice, exe ut the following command: 
 
 
-`curl http://localhost:8083/bb6fba7d-6321-41c5-ac37-1a7a8a9a4ac0/sample/v1/`
+`curl http://localhost:8083/bb6fba7d-6321-41c5-ac37-1a7a8a9a4ac0/sample/v1/localDevices`
 
 You'll get out as follows:
 
 ```
-Hello World
+TO BE PROVIDED
 
 ```
 
